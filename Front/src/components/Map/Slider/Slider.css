@@ -12,6 +12,8 @@
     height: 20em;
     transform: scale(1);
 	transition: transform ease-in-out 0.5s, opacity ease-in-out .5s;
+    display: inline-block;
+
 }
 
 #swipe:checked ~ .slide_container > .slides {
@@ -28,7 +30,7 @@
 	border-radius: 19px;
 	position: relative;
     box-shadow: -1px 15px 30px -20px black;
-    
+
 }
 
 .elements_card:hover {
@@ -53,9 +55,14 @@
     left: 0;
     right: 0;
 }
- 
+
 .elements_name {
-	font-size: 15px;
+    width: 100%;
+    height: 15%;
+}
+ 
+.elements_name p{
+	font-size: 14px;
     color: black;
 	font-weight: 700;
     margin-top: 65%;

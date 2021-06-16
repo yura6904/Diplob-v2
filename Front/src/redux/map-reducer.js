@@ -306,3 +306,33 @@ export const mapReducer = (state = initialState, action) => {
         }
     }
 }
+/*
+"name": "Однослойная поливинилхлоридная пленка",
+"price": "32$",
+"img": "https://sp.cargo-avto.ru/upload/resize_cache/iblock/c83/600_600_183e0ae78cac7b43584231bec35e8e127/9600976.jpg",
+"factoriesID": [0],
+"info": ""
+
+"name": "Многослойная поливинилхлоридная пленка",
+"price": "40$",
+"img": "https://izomernn.ru/wp-content/uploads/2016/04/%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0.jpg?v=1612943721",
+"factoriesID": [0],
+"info": ""
+
+"name": "Термоусадочная пленка",
+"price": "45$",
+"img": "https://b2b-postavki.ru/foto/DE/plenki-termousadochnye.jpg",
+"factoriesID": [0],
+"info": ""
+
+"name": "Полиэтиленовая пленка",
+"price": "27$",
+"img": "https://paket64.ru/sites/default/files/rustekhprom-polimer-poliyetilenovaya-plenka-vysokogo-davleniya-pvd_0.jpg",
+"factoriesID": [0],
+"info": ""
+
+"name": "Полиэтиленовая пузырьковая пленка",
+"price": "36$",
+"img": "https://stroimoll.ru/upload/iblock/59f/puzirkovaya_plenka.png",
+"factoriesID": [0],
+"info": ""*/

@@ -12,14 +12,16 @@ const Slider = (props) => {
                                 <div className = 'elements_card_image'>
                                     <img src = {elements.img} alt = ''/>
                                     </div>
-                                <div className = 'elements_name'>{elements.name}</div>
+                                <div className = 'elements_name'>
+                                    <p>{elements.name}</p>
+                                </div>
                                 <div className = 'elements_description'>
                                     {elements.info}
                                 </div>
-                                <input className = {elements.checked ? 'active_check' : 'check'} 
-                                    type = 'button' value = {elements.checked ? 'Убрать' : 'Выбрать'} 
-                                    onClick = {() => {debugger ; props.chooseElements(elements._id, index)}}>                                    
-                                </input>
+                                    <input className = {elements.checked ? 'active_check' : 'check'} 
+                                        type = 'button' value = {elements.checked ? 'Убрать' : 'Выбрать'} 
+                                        onClick = {() => {debugger ; props.chooseElements(elements._id, index)}}>                                    
+                                    </input>
                         </div>
                     );                                                               
                 })}

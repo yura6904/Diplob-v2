@@ -27,7 +27,7 @@ const Map = (props) => {
                                                 props.changeCustomerStatus();
                                             }}  key = {customer._id}/>                                        
                                             <span></span>
-                                            {' Название организации: ' + customer.name + '; Контакты: ' + customer.contacts}
+                                            <p className = 'customerDescription'>{' Название организации: ' + customer.name + '; Контакты: ' + customer.contacts}</p>
                                         </label>
                                     </div>
                                 );
