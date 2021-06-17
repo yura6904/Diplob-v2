@@ -13,12 +13,12 @@ export const ShowOnTheMap = (props) => {
             }}
             icon = {props.checked ? "https://img.icons8.com/doodle/30/000000/marker--v1.png" : "https://img.icons8.com/plasticine/30/000000/marker.png"}
             onClick={()=>{
-                /*selectedMarker = props;
-                return (// доделать после HOOK
+                /*//let selectedMarker = props;
+                return (
                     <InfoWindow position = {{
-                        lat: selectedMarker.coordinates[0], lng: selectedMarker.coordinates[1]                
+                        lat: props.coordinates[0], lng: props.coordinates[1]                
                         }}>                        
-                        <div>{selectedMarker.name}</div>
+                        <div>{props.name}</div>
                     </InfoWindow>
                 )*/
             }}

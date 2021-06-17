@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import HeaderContainer from './components/Header/HeaderContainer';
 import { useRoutes } from './routes';
 import { useAuth } from './components/Authorization/authHook';

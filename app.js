@@ -25,8 +25,6 @@ async function start() {
 start();
 
 
-
-
 //const db = mogoose.connection;
 /*
     db.once('open', _=>{

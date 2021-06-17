@@ -16,12 +16,15 @@ export  const MapDirectionsRenderer = (props) => {
           location: { lat: f.coordinates[0], lng: f.coordinates[1] },
           stopover: true
         }));
-        //точка возврата транспорта
+        //точка возврата транспорта// не надо
         debugger;
-        waypoints.push({  
-          location: { lat: coordinatesOfFactoriesAndCustomers[0].coordinates[0], lng: coordinatesOfFactoriesAndCustomers[0].coordinates[1] },
-          stopover: true
-        });
+        if (waypoints.length === 1) {
+          waypoints.push({  
+            location: { lat: coordinatesOfFactoriesAndCustomers[0].coordinates[0], lng: coordinatesOfFactoriesAndCustomers[0].coordinates[1] },
+            stopover: true
+          });
+        }
+
         
         const travelMode = window.google.maps.TravelMode.DRIVING;
         const origin = waypoints.shift().location;
